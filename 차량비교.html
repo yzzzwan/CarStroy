@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="차량비교.css">
+    
+</head>
+<body>
+    <div id='wrap'>
+        <header>
+           <nav>
+            <!-- <p style="color: white;">kar story</p> -->
+                <a href="index.html" class="head_logo" ><img src="이미지/헤더.png"></a>
+                <a href="index.html" class="head_menu">홈</a>
+                <a href="차량소개.html" class="head_menu">차량 소개</a>
+                <a href="차량비교.html" class="head_menu">차량 비교</a>
+                <a href="공지사항.html" class="head_menu">공지사항</a>
+
+            </nav>
+        </header>
+        
+
+
+<!-- 커스텀 메뉴는 상위 하위 메뉴는 css 로 처리해주는거임  -->
+<!-- <div id="custom-menu" class="custom-menu">
+    <ul>
+      <li id="menu-item-1">KIA
+        <ul class="sub-menu">
+          <li>서브 항목 1.1</li>
+          <li>서브 항목 1.2</li>
+        </ul>
+      </li>
+
+      <li id="menu-item-2">현대
+        <ul class="sub-menu">
+          <li>서브 항목 2.1</li>
+          <li>서브 항목 2.2</li>
+        </ul>
+      </li>
+
+      <li id="menu-item-3">쌍용자동차
+         <ul class="sub-menu">
+          <li>서브 항목 3.1</li>
+          <li>서브 항목 3.2</li>
+        </ul>
+      </li>
+
+      <li id="menu-item-3">KG모빌리티
+         <ul class="sub-menu">
+          <li>서브 항목 3.1</li>
+          <li>서브 항목 3.2</li>
+        </ul>
+      </li>
+
+      <li id="menu-item-3">쉐보레
+         <ul class="sub-menu">
+          <li>서브 항목 3.1</li>
+          <li>서브 항목 3.2</li>
+        </ul>
+      </li>
+
+
+    </ul>
+  </div> -->
+
+
+  <div id="custom-menu" class="custom-menu">
+    <ul>
+        <li id="menu-item-1">KIA
+            <ul class="sub-menu">
+                <li>소형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('니로EV')">니로 EV</li>
+                        <li onclick="menu_pick('니로 하이브리드')">니로 하이브리드</li>
+                        <li onclick="menu_pick('셀토스')">셀토스</li>
+                    </ul>
+                </li>
+               <li>중형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('K5')">K5</li>
+                        <li onclick="menu_pick('소렌토하이브리드')">소렌토 하이브리드</li>
+                    </ul>
+                </li>
+                <li>준대형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('K8')">K8</li>
+                        <li onclick="menu_pick('모하비')">MOHAVE</li>
+                    </ul>
+                </li>
+                <li>대형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('K9')">K9</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li id="menu-item-1">현대
+            <ul class="sub-menu">
+                <li>소형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('코나')">코나</li>
+                    </ul>
+                </li>
+               <li>준중형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('아반떼')">아반떼</li>
+                        <li onclick="menu_pick('아반떼N')">아반떼N</li>
+                        <li onclick="menu_pick('아이오닉 5N')">아이오닉 5N</li>
+                        <li onclick="menu_pick('투싼')">투싼</li>
+                    </ul>
+                </li>
+                <li>중형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('소나타')">소나타</li>
+                        <li onclick="menu_pick('싼타페')">산타페</li>
+                    </ul>
+                </li>
+                <li>준대형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('그랜저')">그랜저</li>
+                        <li onclick="menu_pick('팰리세이드')">팰리세이드</li>
+                    </ul>
+                </li>
+                <li>대형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('스타리아라운지')">스타리아 라운지</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li id="menu-item-1">르노코리아
+            <ul class="sub-menu">
+                <li>소형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('XM3')">XM3</li>
+                        <li onclick="menu_pick('XM3 E TECH')">XM3 E-TECH</li>
+                    </ul>
+                </li>
+                <li>중형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('SM6')">SM6</li>
+                        <li onclick="menu_pick('QM6')">QM6</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li id="menu-item-1">KG모빌리티
+            <ul class="sub-menu">
+               <li>준중형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('코란도')">코란도</li>
+                    </ul>
+                </li>
+                <li>중형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('토레스')">토레스</li>
+                        <li onclick="menu_pick('토레스 EV X')">토레스 EV X</li>
+                    </ul>
+                </li>
+                <li>준대형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('렉스턴')">렉스턴</li>
+                        <li onclick="menu_pick('렉스턴스포츠')">렉스턴 스포츠</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li id="menu-item-1">쉐보레
+            <ul class="sub-menu">
+                <li>소형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('트레일 블레이저')">트레일 블레이저</li>
+                        <li onclick="menu_pick('트랙스 크로스오버')">트랙스 크로스오버</li>
+
+                    </ul>
+                </li>
+               
+                <li>중형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('이쿼녹스')">이쿼녹스</li>
+                    </ul>
+                </li>
+
+                <li>준대형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('트래버스')">트래버스</li>
+                    </ul>
+                </li>
+                <li>대형
+                    <ul class="sub-sub-menu">
+                        <li onclick="menu_pick('대형 타호')">타호</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+
+
+    </ul>
+</div>
+
+
+
+    <div class="container">
+        <div class="sidebar">
+            <p style="color: white; font-weight: bold; font-size: 28px; padding: 0px 20px; margin-bottom : 10px">차량 비교</p>
+            <hr>
+
+             <a> </a>
+        </div> 
+
+
+
+
+        <div class="content">
+
+                <div class="car_list">
+                    <div class="best_car" style="height: 630px;">
+                        <div class="car_name1">
+                            <span>차량을 선택하세요</span>               
+                        </div>
+
+                        <div class="best_car_img" >
+                            <img src="이미지/3페이지/추가버튼.png" class='plus' alt="니로EV 2">
+                        </div>
+
+                    </div>
+
+                    <div class="best_car" style="height: 630px;">
+                        <div class="car_name1">
+                            <span>차량을 선택하세요</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/3페이지/추가버튼.png" class='plus' alt="니로 하이브리드 2">
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div> <!-- content div -->
+
+        </div> <!-- containor -->
+
+        <div class="empty_div"> 
+            <img src="이미지/3페이지/화살표.png" style="padding-top: 80px; padding-left: 250px;">
+            <img src="이미지/3페이지/화살표.png" style="padding-top: 80px; padding-left: 500px;">
+        </div>
+
+         <div class="content" style="padding-left: 260px;">
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span class="cars_name">-</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/3페이지/빈 이미지.png" class='carImage' alt="니로EV 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span>-</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(0, 0)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(0, 0)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span class="cars_name">-</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/3페이지/빈 이미지.png" class='carImage' alt="니로 하이브리드 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">-</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span>-</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                               <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(1, 0)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(1, 0)">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(0)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+                           <div class="detail_img">
+                                <img src="이미지/2페이지/left.png" class="arrow1"  onclick="prev_car(0)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(0)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,1)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,1)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,1)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,1)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(0)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div> <!-- content div -->
+
+
+
+                </div> <!-- wrap div -->
+
+
+        
+
+   <footer>
+        <div class="outer">
+            <img src="이미지/헤더.png">
+            <p>우리는 여러분에게 더 좋은 차를 제공하는 것을 중요하게 생각합니다</p>
+
+            <div class="inner" style="flex-direction: row;">
+                <span><a href="index.html">HOME</a></span>
+                <span><a href="공지사항.html">NEWS</a></span>
+                <span>COMPANY</span>
+                <span>CONTACT</span>
+                <span>ABOUT</span>
+
+            </div>
+
+        </div>
+    </footer>
+  <script src="차량비교.js"></script>
+
+</html>

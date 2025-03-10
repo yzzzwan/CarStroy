@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="차량소개.css">
+
+</head>
+<body>
+
+        <header>
+            <nav>
+            <!-- <p style="color: white;">kar story</p> -->
+                <a href="index.html" class="head_logo" ><img src="이미지/헤더.png"></a>
+                <a href="index.html" class="head_menu">홈</a>
+                <a href="차량소개.html" class="head_menu">차량 소개</a>
+                <a href="차량비교.html" class="head_menu">차량 비교</a>
+                <a href="공지사항.html" class="head_menu">공지사항</a>
+
+            </nav>
+        </header>
+    <div id='wrap'>
+        
+        <div class="container">
+            <div class="sidebar">
+                <p style="color: white; font-weight: bold; font-size: 28px; padding: 0px 20px; margin-bottom : 10px">차량 소개</p>
+                <hr>
+
+                <a  href="javascript:void(0);" style="background-color: #333;" class="brand"  onclick="change_brand('KIA', this)">KIA</a>
+                <hr>
+
+                <a href="javascript:void(0);" class="brand" onclick="change_brand('현대', this)">현대</a>
+                <hr>
+
+                <a href="javascript:void(0);" class="brand" onclick="change_brand('르노코리아', this)">르노코리아</a>
+                <hr>
+
+                <a href="javascript:void(0);" class="brand" onclick="change_brand('KG', this)">KG모빌리티</a>
+                <hr>
+
+                <a href="javascript:void(0);" class="brand" onclick="change_brand('쉐보레', this)">쉐보레</a>
+                <hr>
+
+            </div>
+
+
+
+
+
+
+            <div class="content">
+                <h1 style="color : white; text-decoration : underline; padding-left: 5px;" id="car_brand_name" >소형</h1>
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>니로 EV</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/니로EV 2.png" class='carImage' alt="니로EV 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2024년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 5.3km/kWh</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">복합 150kW</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">소형 SUV</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span> 51,200,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(0, 0)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(0, 0)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>니로 하이브리드</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/니로 하이브리드 2.png" class='carImage' alt="니로 하이브리드 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 19.1~20.8km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">복합 104hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">소형 SUV</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span> 33,760,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                               <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(1, 0)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(1, 0)">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(0)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+                            <div class="detail_img">
+                                <img src="이미지/2페이지/left.png" class="arrow1"  onclick="prev_car(0)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(0)">
+                            </div>
+
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,0)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,0)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,0)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,0)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(0)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img class="review_img"  src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p><img src="이미지/1페이지/star.png"> 0.38</p>
+                            <p>제가 탄 차량 중 best1</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best1</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>셀토스</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/셀토스 2.png" class='carImage' alt="셀토스 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2024년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 10.8~12.9km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">149~198hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">소형 SUV</p>
+                        </div>
+                        <hr>
+
+                        <div class="price" style="margin-bottom: 0;">
+                            <span> 29,030,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                               <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(2,1)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(2,1)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car" style="display: none;">
+                        <div class="car_name">
+                            <span>셀토스</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/셀토스 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 10.8~12.9km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">149~198hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">블루</p>
+                        </div>
+                        <hr>
+
+                        <div class="price" style="margin-bottom: 0;">
+                            <span> 20,870,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(3,1)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="details(3,1)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(1)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+                            <div class="detail_img">
+                                 <img src="이미지/2페이지/left.png" class="arrow1" onclick="prev_car(1)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(1)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,1)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,1)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,1)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,1)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(1)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img  class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img   class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.382</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> <!-- 소형 div content -->
+
+
+            <!-- 준중형 -->
+            <div class="content" style="padding-left: 260px; display: none;">
+                <h1 style="color : white; text-decoration : underline; padding-left: 5px;" id="car_brand_name" >준중형</h1>
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>니로 EV</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/기아/니로EV 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2024년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 5.3km/kWh</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">150kW</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">소형 SUV</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span> 51,200,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(4,2)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(4,2)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>니로 하이브리드</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/기아/니로 하이브리드 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 19.1~20.8km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">104hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">레드</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span> 27,130,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(5,2)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(5,2)">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(2)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+                            <div class="detail_img">
+                                 <img src="이미지/2페이지/left.png" class="arrow1" onclick="prev_car(2)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(2)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,2)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,2)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,2)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,2)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(2)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img  class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img   class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>셀토스</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/기아/셀토스 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 10.8~12.9km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">149~198hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">블루</p>
+                        </div>
+                        <hr>
+
+                        <div class="price" style="margin-bottom: 0;">
+                            <span> 20,870,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(6,3)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(6,3)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>셀토스</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/기아/셀토스 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 10.8~12.9km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">149~198hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">블루</p>
+                        </div>
+                        <hr>
+
+                        <div class="price" style="margin-bottom: 0;">
+                            <span> 20,870,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(7,3)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(7,3)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(3)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+                            <div class="detail_img">
+                                 <img src="이미지/2페이지/left.png" class="arrow1" onclick="prev_car(3)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(3)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,3)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,3)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,3)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,3)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(3)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> <!-- 준중형 div content -->
+
+
+
+
+
+        <!-- 증형 -->
+            <div class="content" style="padding-left: 260px;">
+                <h1 style="color : white; text-decoration : underline; padding-left: 5px;" id="car_brand_name" >중형</h1>
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>K5</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/K5 2.png" class='carImage' alt="K5 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2024년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 9.5~13.7km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">146~180hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">중형 세단</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span>35,260,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(8,4)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(8,4)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>소렌토 하이브리드</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/소렌토하이브리드 2.png" class='carImage' alt="소렌토하이브리드 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2024년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 13.8~15.7km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">235hp/180hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">중형 SUV</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span>48,310,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(9,4)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(9,4)">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(4)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+
+                            <div class="detail_img">
+                                <img src="이미지/2페이지/left.png" class="arrow1" onclick="prev_car(4)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(4)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,4)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,4)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,4)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,4)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(4)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> <!-- 중형 div content -->
+
+
+
+            <!-- 준대형 -->
+            <div class="content" style="padding-left: 260px;">
+                <h1 style="color : white; text-decoration : underline; padding-left: 5px;" id="car_brand_name" >준대형</h1>
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>K8</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/K8 2.png" class='carImage' alt="K8 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2024년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 7.7~12km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">198~300hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">준대형 세단</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span>46,240,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(10,5)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(10,5)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>MOHAVE</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/모하비 2.png" class='carImage' alt="모하비 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2024년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 9.3km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">257hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">준대형 SUV</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span>59,930,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(11,5)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(11,5)">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(5)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+
+                            <div class="detail_img">
+                               <img src="이미지/2페이지/left.png" class="arrow1" onclick="prev_car(5)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(5)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,5)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,5)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,5)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,5)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(5)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="car_list" style="display : none;">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>셀토스</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/셀토스 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 10.8~12.9km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">149~198hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">블루</p>
+                        </div>
+                        <hr>
+
+                        <div class="price" style="margin-bottom: 0;">
+                            <span> 20,870,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                               <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(12,5)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(12,5)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>셀토스</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/기아/셀토스 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 10.8~12.9km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">149~198hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">블루</p>
+                        </div>
+                        <hr>
+
+                        <div class="price" style="margin-bottom: 0;">
+                            <span> 20,870,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(13,6)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(13,6)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(6)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+
+                            <div class="detail_img">
+                               <img src="이미지/2페이지/left.png" class="arrow1" onclick="prev_car(6)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(6)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,6)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,6)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,6)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,6)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(6)">
+                        </a>
+                    </div>
+
+
+                    <div class="t">
+                        <img class="review_img" src="이미지/1페이지/리뷰/test.png" >
+                        <img class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> <!-- 준대형 div content -->
+
+
+
+            <!-- 대형 -->
+            <div class="content" style="padding-left: 260px;">
+                <h1 style="color : white; text-decoration : underline; padding-left: 5px;" id="car_brand_name" >대형</h1>
+
+                <div class="car_list">
+                    <div class="best_car">
+                        <div class="car_name">
+                            <span>K9</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/차/K9 2.png" class='carImage' alt="K9 2">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 8.1~9km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">315~370hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">대형 세단</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span>77,400,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(14,7)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(14,7)">자세히 보기</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="best_car" style="display : none;">
+                        <div class="car_name">
+                            <span>니로 하이브리드</span>               
+                        </div>
+
+                        <div class="best_car_img">
+                            <img src="이미지/2페이지/기아/니로 하이브리드 2.png" class='carImage' alt="KIA K9 Image">
+                        </div>
+
+                        <div class="car_info">
+                            <p class="car_info_left">출시일</p>
+                            <p class="car_info_right">2023년</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">연비</p>
+                            <p class="car_info_right">복합 19.1~20.8km/ℓ</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">최고출력</p>
+                            <p class="car_info_right">104hp</p>
+                        </div>
+                        <hr>
+
+                        <div class="car_info">
+                            <p class="car_info_left">차종</p>
+                            <p class="car_info_right">레드</p>
+                        </div>
+                        <hr style="margin-bottom: 0;">
+
+                        <div class="price">
+                            <span> 27,130,000원</span>
+                        </div>
+
+                        <div class="car_info">
+                            <div class="car_info_left" id="review"> 
+                               <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="review(15,7)">리뷰 보기</a>
+                            </div>
+
+                            <div class="car_info_left" id="review"> 
+                                <a href="javascript:void(0);"  style="padding: 40px; color: white;" onclick="detail(15,7)">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="details">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                        <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(7)">
+                        </a>
+                    </div>
+
+
+                    <div class="in">
+                        <div>
+
+                            <div class="detail_img">
+                                <img src="이미지/2페이지/left.png" class="arrow1" onclick="prev_car(7)">
+                                <img class="rc" src="이미지/2페이지/기아/니로 하이브리드 2.png" >
+                                <img src="이미지/2페이지/right.png" class="arrow2" onclick="next_car(7)">
+                            </div>
+                            <div class="bt">
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(1,7)">    
+                                <img src="이미지/1페이지/선택버튼.png" onclick="rotation(2,7)">  
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(3,7)">    
+                                <img src="이미지/1페이지/버튼.png" onclick="rotation(4,7)">    
+                            </div>
+
+                        </div>
+
+                        <div class="details_car">
+                            <div class="car_info">
+                                <p class="car_info_left">토크</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">배기</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">엔진</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                            <div class="car_info">
+                                <p class="car_info_left">구동</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">변속</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전장</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전고</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">전폭</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+                            <div class="car_info">
+                                <p class="car_info_left">축거</p>
+                                <p class="car_info_right">165~170hp</p>
+                            </div>
+                            <hr>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reviews">
+                    <div align="right">
+                        <a href="javascript:void(0);">
+                            <img src="이미지/1페이지/닫기버튼.png" onclick="del_review(7)">
+                        </a>
+                    </div>
+
+
+                    <div  class="t">
+                        <img class="review_img"  src="이미지/1페이지/리뷰/test.png" >
+                        <img class="review_img" src="이미지/1페이지/리뷰/test1.png" >
+                    </div>
+                
+                    <div class="ins">
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                        <div class="a_review">
+                            <p>0.38</p>
+                            <p>제가 탄 차량 중 best</p>
+                            <p>slice</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> <!-- 대형 div content -->
+
+
+
+        </div> <!-- div containor -->
+    </div> <!-- div wrap -->
+
+
+    <footer>
+        <div class="outer">
+            <img src="이미지/헤더.png">
+            <p>우리는 여러분에게 더 좋은 차를 제공하는 것을 중요하게 생각합니다</p>
+
+            <div class="inner" style="flex-direction: row;">
+                <span><a href="index.html">HOME</a></span>
+                <span><a href="공지사항.html">NEWS</a></span>
+                <span>COMPANY</span>
+                <span>CONTACT</span>
+                <span>ABOUT</span>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+  <script src="차량소개.js"></script>
+  <!-- <script src="home.js"></script> -->
+  
+
+</html>

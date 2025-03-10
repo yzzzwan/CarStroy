@@ -1,0 +1,1001 @@
+1-1.
+if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.33';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가성비 차량이라고들 하지만 품질면에서도 뒤지지 않습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'alwa**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 3일 전';
+
+        }
+
+1-2.
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.67';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가성비 대비 흠잡을때가 없는 차량입니다. 다시 또 구매하고 싶은 차량 입니다';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'sigm**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 8일 전';
+
+        }
+
+2-1.
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.17';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가성비 좋은 차이며 주행능력 또한 뛰어난 차량입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'alim**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 2일 전';
+
+        }
+
+2-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.33';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가성비 차량이라고들 하지만 품질면에서도 뒤지지 않습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'alwa**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 9일 전';
+
+        }
+
+3-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.72';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '대체로 만족하나 연비는 역시 시내주행 시 많이 떨어집니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = '321a**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 7일 전';
+
+        }
+
+3-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.11';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '1년을 고민해서 구입한 차량. 디자인이 언제 봐도 질리지 않고 공간도 넉넉합니다';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'eods**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 12일 전';
+
+        }
+
+4-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.18';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '차량의 전반적인 편의장비나 주행보조장치는 만족합니다. 생각보다 연비도 좋습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wod1**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 6일 전';
+
+        }
+
+4-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.68';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '하자는 하나도 없이 운행중이고 디자인이 마음에 들어서 구입했습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'l28p**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 10일 전';
+
+        }
+
+5-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.38';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '제가 탄 차량중에 가장 훌륭한 차 입니다. 강력 추천 드립니다';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'slei**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 4일 전';
+
+        }
+
+5-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.00';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '승차감과 하차감 모두 만족스러운 차량입니다. 하지만 연비가 좋지 않은 점이 있어요';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'dkfj**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 13일 전';
+
+        }
+
+6-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.65';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '보자마자 마음에 들어서 바로 샀습니다. 디자인, 가격, 파워 모두 만족합니다';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'sdfm**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 15일 전';
+
+        }
+
+6-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.36';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '아주 좋습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'lfks**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 25일 전';
+
+        }
+
+7-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.08';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '별 기대없이 샀는데 너무 만족하고 있습니다. 주변 지인들한테 계속 자랑하고 다니고 있습니다';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'elwi**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 1일 전';
+
+        }
+
+7-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.12';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '연비가 조금 안좋습니다. 나머지는 좋습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'dkek**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 2일 전';
+
+        }
+
+
+8-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.55';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가족들과 함께 타기 좋습니다. 내부도 생각보다 넓습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wlke**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 11일 전';
+
+        }
+
+
+8-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.59';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '이 차 아주 물건입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'ekl2**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 22일 전';
+
+        }
+
+
+9-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.50';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '다들 좋다고 해서 샀는데 뭐가 좋은지 모르겠네요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'fukk**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 3일 전';
+
+        }
+
+
+9-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.26';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '좋습니다. 매우 만족하면서 타고 있습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'do2e**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 15일 전';
+
+        }
+
+
+10-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.09';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '고속도로를 달릴 때 가슴이 뻥 뚫립니다. 너무 잘 산거 같습니다';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'leoe**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 8일 전';
+
+        }
+
+
+10-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.58';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '이 차를 꼭 탔으면 좋겠습니다. 너무 만족하는 중 입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'dek2**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 12일 전';
+
+        }
+
+
+11-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.56';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '여자친구가 너무 좋아해요. 같이 탈 때 행복합니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'dkow**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 4일 전';
+
+        }
+
+
+11-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.48';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '너무 좋아요. 첫 차로 샀는데 다른 차 이제 못탈 것 같아요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'qq2q**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 5일 전';
+
+        }
+
+
+12-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.45';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '차 바꾸길 잘했네요. 차 바꿀까 말까 고민하다가 산건데 괜히 고민한 거 같네요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = '29ep**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 8일 전';
+
+        }
+
+
+12-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.88';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '디자인 하면 디자인, 연비 하면 연비, 승차감 하면 승차감 완벽한 차량입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'elw1**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 16일 전';
+
+        }
+
+
+13-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.95';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '샀으니까 타고 다녀야죠.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'owid**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 10일 전';
+
+        }
+
+13-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.44';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '저는 만족하고 타고 있습니다. 제 생각엔 호불호 갈리는 차량 같습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'a123**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 19일 전';
+
+        }
+
+14-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.66';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '뭐가 안좋다고들 하는지 모르겠네요. 저는 만족하고 있습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'dlw2**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 21일 전';
+
+        }
+
+
+14-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.00';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '생각했던거 보다는 별로네요. 너무 기대를 했던 걸까요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'dpw1**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 30일 전';
+
+        }
+
+15-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.32';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가성비하면 역시 국산차 입니다. 실내공간도 넓고 편의사항도 많고 잘 타고 있어요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = '34et**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 5일 전';
+
+        }
+
+15-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.33';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '아주 만족하고 타고 있습니다. 회전축도 작아서 초보분들도 잘 탈 수 있습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'stem**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 18일 전';
+
+        }
+
+16-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.33';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '전체적으로 만족합니다. 성능 우수하고 디자인도 질리지 않습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'auei**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 22일 전';
+
+        }
+
+16-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.24';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '전체적으로 멋, 실용성, 편안함 두루 갖춘 차량이라고 생각합니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'diwo**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 34일 전';
+
+        }
+
+17-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.32';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '첫 새차라서 더 애정이 가는건 별 수 없지만 너무 만족스럽습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'rlaw**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 2일 전';
+
+        }
+
+17-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.57';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가격은 적당하고 거주성은 무난합니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'idwm**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 13일 전';
+
+        }
+
+18-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.21';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '편의성 등 부족한 점은 있지만 디자인이 압도적입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'auwd**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 27일 전';
+
+        }
+
+18-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.17';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가격부터 디자인, 공간까지 완벽한 차량입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = '2du0**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 38일 전';
+
+        }
+
+19-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.12';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '좋아요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'dbwj**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 6일 전';
+
+        }
+
+19-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.23';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '새로 샀더니 기분이 좋네요. 얼른 차 바꾸세요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'ekzd**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 9일 전';
+
+        }
+
+20-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.05';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '만족하면서 타고 있습니다. 트렁크가 넓은게 마음에 드네요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'mckl**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 12일 전';
+
+        }
+
+20-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.49';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '남성분들이 좋아할 차량입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'vowe**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 27일 전';
+
+        }
+
+21-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.26';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '차량이 아주 잘 나갑니다. 승차감도 좋습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wod1**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 5일 전';
+
+        }
+
+21-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.26';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '연비가 많이 안좋아요. 승차감은 좋은데 연비가 아쉽네요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wk23**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 9일 전';
+
+        }
+
+22-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.56';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '만족하고 있습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wo92**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 8일 전';
+
+        }
+
+22-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.53';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '승차감이 너무 좋습니다. 너무 편해요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'ewwq**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 12일 전';
+
+        }
+
+23-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.24';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '편안하고 조용합니다. 생각보다 연비가 떨어져요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'udw2**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 6일 전';
+
+        }
+
+23-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.22';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '디자인 주행연비 성능 갑인듯 합니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'qyds**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 21일 전';
+
+        }
+
+24-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.65';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '생각 이상으로 연비가 좋습니다. 디자인도 괜찮습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = '128d**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 30일 전';
+
+        }
+
+24-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.88';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '내부가 만족스럽네요. 후회없는 선택이었네요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'cjd2**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 42일 전';
+
+        }
+
+25-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.98';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '만족감 확실합니다. 주행성능 및 편의성으로 차를 모는 맛이 납니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'sdq1**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 13일 전';
+
+        }
+
+25-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.21';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '제일 맘에 드는 부분은 연비, 그 다음은 디자인 입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'qwod**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 26일 전';
+
+        }
+
+26-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.30';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '운전 시 눈부심이 없어서 편합니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = '82dq**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 34일 전';
+
+        }
+
+26-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.87';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '전반적으로 가성비 좋고 연비 잘 나옵니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wo02**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 49일 전';
+
+        }
+
+27-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.72';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '대체로 만족하나 연비는 시내주행 시 많이 떨어집니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'qwer**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 9일 전';
+
+        }
+
+27-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.11';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '고민해서 구입한 차량. 디자인이 언제 봐도 질리지 않습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'eid2**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 19일 전';
+
+        }
+
+28-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.47';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '실내 플라스틱 소재가 조금 고급스러웠다하면하는 아쉬움이 있네요.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'qi2d**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 9일 전';
+
+        }
+
+28-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.43';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '너무 좋습니다. 성능과 편의성 둘 다 만족합니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wcjd**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 17일 전';
+
+        }
+
+29-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.89';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '가격 대비 성능도 괜찮고 디자인도 예쁘게 나온 것 같습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wi1d**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 22일 전';
+
+        }
+
+29-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.02';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '이 가격에 이 성능이면 가성비 최고의  차.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'cyqu**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 41일 전';
+
+        }
+
+30-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.65';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '타본다면 만족하는 차 입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'rowd**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 19일 전';
+
+        }
+
+30-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.44';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '디자인, 옵션은 깔 수 없는 좋은 차 입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'aifw**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 29일 전';
+
+        }
+
+31-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.74';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '주행 시 안정감과 편안함이 있습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'gpqm**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 32일 전';
+
+        }
+
+31-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.00';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '최신 기능 만족합니다. 주행 성능 만족합니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'ceo2**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 42일 전';
+
+        }
+
+32-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.36';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '실 연비는 좋지만 호불호가 갈릴 수 있습니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'tjqd**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 4일 전';
+
+        }
+
+32-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.69';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '성능, 디자인, 연비 모두 무난한 적당한 차 입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'wocc**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 13일 전';
+
+        }
+
+33-1
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '8.99';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '이 차는 정말 운전하기에 기본기 좋고 쓸만한 차 입니다.';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'duwq**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 22일 전';
+
+        }
+
+33-2
+   if (index === 0) {
+            var newImage = document.createElement('img');
+            newImage.src = "이미지/1페이지/star.png";
+            pTag.appenChild(newImage)
+            pTag.textContent = '9.50';
+        } 
+        else if (index === 1) {
+            pTag.textContent = '아주 만족합니다~! 정말 좋아요!';
+        } 
+        else if (index === 2) {
+            pTag.textContent = 'duwq**** \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 34일 전';
+
+        }
